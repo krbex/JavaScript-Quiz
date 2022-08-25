@@ -9,3 +9,5 @@ I felt mostly satisfied with my javascript file structure however time was my wo
 Link to deployed page - https://krbex.github.io/JavaScript-Quiz/
 
 ![image](https://user-images.githubusercontent.com/98418456/186788805-e5e28aa2-a332-4ddb-bff4-9bcdbef1a4eb.png)
+
+Despite this, the acceptance criteria did not call for initials and scores to be able to be recalled and only stored, which will be considered a quality of life update and applied as soon as possible.
