@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<header>
+    <h1>Wheel of Time Quiz</h1>
+</header>
+
+<figure id="leaderboard"><span>Leaderboard:</span></figure>
+<div id="timer-container">
+    <h2 id="timer"></h2>
+</div>
+<!-- Element used for the timer -->
+
+<body>
+    <main>
+        <div id="intro">
+            <h2>This quiz is based on the Wheel of Time Book series, by Robert Jordan and Brandon Sanderson.</h2>
+            <p>While minor spoilers are an unavoidable aspect of this quiz, I highly recommend the book series and
+                encourage it be enjoyed thoroughly.</p>
+        </div>
+        <!-- intro/disclaimer -->
+        <div id="game-board">
+            <div id="question-cards">
+                <div>
+                    <h2 id="questions">AAA</h2>
+                </div>
+
+                <div>
+                    <button type="button" class="choiceCard">
+                        <h3 id="answer-card-1">111</h3>
+                    </button>
+                </div>
+
+                <div>
+                    <button type="button" class="choiceCard">
+                        <h3 id="answer-card-2">222</h3>
+                    </button>
+                </div>
+
+                <div>
+                    <button type="button" class="choiceCard">
+                        <h3 id="answer-card-3">333</h3>
+                    </button>
+                </div>
+
+                <div>
+                    <button type="button" class="choiceCard">
+                        <h3 id="answer-card-4">444</h3>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Container for questions and answers -->
+    </main>
+
+    <aside id="answer-check"></aside>
+    <!-- displays correct/wrong messages -->
+
+    <button id="start-button" type="button">Start</button>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

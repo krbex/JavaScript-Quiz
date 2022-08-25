@@ -1,0 +1,56 @@
+html {
+    background-color: rgb(32, 32, 32);
+    color: aliceblue;
+}
+/* Sets the color scheme to dark mode */
+
+header {
+    position: fixed;
+    right: 870px;
+}
+/* Centers the header */
+
+main {
+    display: inline-block;
+    position: relative;
+    left: 640px;
+    max-width: 600px;
+    justify-content: center;
+    top: 50px;
+}
+/* Centers the main element */
+
+#questions {
+    justify-content: center;
+}
+
+#timer-container {
+    position: fixed !important;
+    top: 0;
+    right: 30px;
+    font-size: x-large;
+}
+/* Keeps the timer from moving from the top right */
+
+#leaderboard {
+    top: 0;
+    position: absolute;
+    left: 30px;
+    font-size: x-large;
+}
+
+aside { 
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 75px;
+}
+/* Allows the aside to appear under the questions and above the start button */
+
+#start-button {
+    position: absolute;
+    justify-content: center;
+    right: 940px;
+    align-content: center;
+    margin-top: 75px;
+}
